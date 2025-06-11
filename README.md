@@ -59,18 +59,15 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 
 # 📦 Express.js Product API
-│
 
-│
 ## Prerequisites
 │ - Node.js v18+
 │ - npm
-│
+
 ### Installation
 │ - bash
 │ - npm install
-│   
-│
+
 ### Run the Server
 │ - bash
 │ - node server.js
@@ -87,7 +84,7 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 │     - `category`: Filter by category
 │     - `page`: Page number
 │     - `limit`: Results per page
-│
+
 **Response Example:**
 │   ```json
 │   {
@@ -96,8 +93,7 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 │     ],
 │     "total": 1
 │   }
-│   ```
-│
+
 ### `GET /api/products/:id`
 │   - Get product by ID
 │
@@ -112,8 +108,8 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 │     "category": "Electronics",
 │     "inStock": true
 │   }
-│   ```
-│
+   ```
+
 ### `PUT /api/products/:id`
 │   - Update product
 │   - Body: same as POST
