@@ -60,35 +60,35 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 # 📦 Express.js Product API
 │
-│   ##
+
 │
-│   ### Prerequisites
-│   - Node.js v18+
-│   - npm
+## Prerequisites
+│ - Node.js v18+
+│ - npm
 │
-│   ### Installation
-│   ```bash
-│   npm install
+### Installation
+│ - bash
+│ - npm install
+│   
+│
+### Run the Server
+│ - bash
+│ - node server.js
 │   ```
 │
-│   ### Run the Server
-│   ```bash
-│   node server.js
-│   ```
+## 📘 API Endpoints
 │
-│   ## 📘 API Endpoints
-│
-│   All requests must include a header:
+## All requests must include a header:
 │   `x-api-key: your-secure-api-key`
 │
-│   ### `GET /api/products`
+### `GET /api/products`
 │   - List all products
 │   - Query Parameters:
 │     - `category`: Filter by category
 │     - `page`: Page number
 │     - `limit`: Results per page
 │
-│   **Response Example:**
+**Response Example:**
 │   ```json
 │   {
 │     "data": [
@@ -98,10 +98,10 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 │   }
 │   ```
 │
-│   ### `GET /api/products/:id`
+### `GET /api/products/:id`
 │   - Get product by ID
 │
-│   ### `POST /api/products`
+### `POST /api/products`
 │   - Create new product
 │   - Body:
 │   ```json
@@ -114,17 +114,17 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 │   }
 │   ```
 │
-│   ### `PUT /api/products/:id`
+### `PUT /api/products/:id`
 │   - Update product
 │   - Body: same as POST
 │
-│   ### `DELETE /api/products/:id`
+### `DELETE /api/products/:id`
 │   - Delete product
 │
-│   ### `GET /api/products/search?q=term`
+### `GET /api/products/search?q=term`
 │   - Search products by name
 │
-│   ### `GET /api/products/stats`
+### `GET /api/products/stats`
 │   - Returns count by category
 
 
